@@ -1,2 +1,0 @@
-print("Initial Commit test.")
-
