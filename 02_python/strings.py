@@ -90,3 +90,19 @@ print("Pluto mass with 3 decimal points: {:.3}".format(pluto_mass))   # 1.35
 print("Pluto mass with 3 decimal points and format as percent: {:.3%}".format(pluto_mass))    # 135.400%
 print("Pluto mass separate with commas: {:,}".format(population))    # 52,910,390
 print("====================")
+
+print("14 - rjust")
+text = "Python"
+fill_text = text.rjust(10, "#")
+print(fill_text)  # ####Python
+print("====================")
+
+print("15 - rstrip")
+string = "hello world    "
+st = "hello,world."
+new_string = string.rstrip()
+new_st = st.rstrip(".")
+print(new_string)  # hello world (remove the spaces from the end)
+print(new_st)  # hello,world (remove "." in the end)
+print("====================")
+
