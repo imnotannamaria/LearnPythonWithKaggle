@@ -2,7 +2,6 @@
 import math as mt
 from math import *
 
-
 print("External Libraries - Import")
 
 print("It's math! It has type {}".format(type(mt)))
